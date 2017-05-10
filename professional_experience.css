@@ -1,0 +1,102 @@
+
+body
+{
+  background-image: url(about_me_background_picture.jpg);
+  background-size: 90em 85em;
+}
+
+/* "Home" navigation bar */
+nav
+{
+	position: absolute; top: 15; left: 1280;
+	font-size: 30;
+}
+
+/* Professional Experience header*/
+h1
+{
+	position: absolute; top: -3; left: 530;
+
+}
+
+#headshot3_picture_css img
+{
+	position: absolute; top: 90; left: 605;
+    width: 11em; height: 13em;
+}
+
+#resume_header_css
+{
+	position: absolute; top: 285; left: 365;
+	color: blue;
+	font-size: 20;
+	border-bottom: .15em solid #707070;
+}
+
+#resume_picture_css img
+{
+	position: absolute; top: 385; left: 285;
+    width: 15em; height: 15em; border: .1em solid black;
+
+}
+
+#transcript_header_css
+{
+	position: absolute; top: 285; left: 910;
+	color: blue;
+	font-size: 20;
+ 	border-bottom: .15em solid #707070;
+}
+
+#transcript_picture_css img
+{
+	position: absolute; top: 385; left: 841;
+    width: 15em; height: 15em; border: .1em solid black;
+}
+
+#projects_header_css
+{
+	position: absolute; top: 625; left: 648;
+	color: blue;
+	font-size: 20;
+	border-bottom: .15em solid #707070;
+}
+
+
+
+#spartahacks_header_css
+{
+	position: absolute; top: 708; left: 552;
+	color: red;
+}
+
+#spartahacks_paragraph_css
+{
+	position: absolute; top: 750; left: 0;
+  	text-align: center;
+  	padding-left: 28em; padding-right: 33.35em;
+}
+
+#technical_skills_header_css
+{
+	position: absolute; top: 900; left: 609;
+	font-size: 20;
+	color: blue;
+	border-bottom: .15em solid #707070;
+}
+
+#technical_skills_paragraph_css
+{
+	position: absolute; top: 980; left: 0;
+  	text-align: center;
+  	padding-left: 30.5em; padding-right: 33.35em;
+	margin-bottom: 5em;
+}
+
+#technical_skills_paragraph_css h4
+{
+	color: red;
+	margin-bottom: 0em;
+}
+
+

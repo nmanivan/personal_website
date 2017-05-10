@@ -1,0 +1,138 @@
+body
+{
+  background-image: url(about_me_background_picture.jpg);
+  background-size: 90em 85em;
+}
+
+h1
+{
+	position: absolute; top: 77; left: 500;
+	color: red; font-family: sans-serif; font-size: 40;
+  opacity: 0;
+  animation-name: opacity;
+  animation-delay: 4s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+h3
+{
+	position: absolute; top: 132; left: 606;
+	color: red; font-family: cursive; font-size: 25;
+  opacity: 0;
+  animation-name: opacity;
+  animation-delay: 4s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#my_background_css
+{
+	position: absolute; top: 475; left: 606;
+	font-size: 30;
+  opacity: 0;
+  animation-name: opacity;
+  animation-delay: 5.5s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  /*animation-name: orbit_background;
+  animation-duration: 5s;*/
+}
+
+#professional_experience_css
+{
+	position: absolute; top: 120; left: 100;	
+	font-size: 30;
+  opacity: 0;
+  animation-name: opacity;
+  animation-delay: 5.5s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#contact_information_css
+{
+	position: absolute; top: 120; left: 1040;	
+	font-size: 30;
+  opacity: 0;
+  animation-name: opacity;
+  animation-delay: 5.5s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#headshot_css img
+{
+  border-radius: 50%;
+  position: absolute; top: 240; left: 600;
+  width: 13em; height: 13em; border: .1em solid black;
+  animation-name: translate_headshot;
+  animation-duration: 4s;
+}
+
+#parents_picture_css img
+{
+  border-radius: 50%;
+  position: absolute; top: 200; left: 585;
+  width: 15em; height: 15em; border: .1em solid black;
+  animation-name: orbit_background;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+#cruise_picture_css img
+{
+  border-radius: 50%;
+  position: absolute; top: 200; left: 575/*1038*/;
+  width: 15em; height: 15em; border: .1em solid black;
+  animation-name: orbit_contacts;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+
+}
+
+#headshot4_css img
+{
+  border-radius: 50%;
+  position: absolute; top: 200; left: 575;
+  width: 15em; height: 15em; border: .1em solid black;
+  animation-name: orbit_professional_experience;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes opacity 
+{
+  to{ opacity: 10; }
+}
+
+@keyframes translate_headshot
+{
+  from{ transform: translateX(400px); }
+}
+
+@keyframes orbit_background
+{
+  from { transform: rotate(0deg) translateX(350px) rotate(0deg); }
+  to { transform: rotate(90deg) translateX(350px) rotate(-90deg); }
+} 
+
+@keyframes orbit_professional_experience
+{
+  from{ transform: rotate(0deg) translateX(450px) rotate(0deg); }
+  to{ transform: rotate(180deg) translateX(450px) rotate(-180deg); }
+} 
+
+@keyframes orbit_contacts
+{
+  from{ transform: rotate(0deg) translateX(450px) rotate(0deg); }
+  to{ transform: rotate(360deg) translateX(450px) rotate(-360deg); }
+} 
+
+
+nav a:visited
+{
+  color: blue;
+}
+

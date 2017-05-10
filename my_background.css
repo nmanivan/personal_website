@@ -1,0 +1,120 @@
+
+/* "My Background" header */
+h1
+{
+  color: black; font-family: sans-serif;
+  position: absolute; top: -9; left: 570;
+  font-size: 32;
+}
+
+body
+{
+  background-image: url(about_me_background_picture.jpg);
+  background-size: 90em 80em;
+}
+
+/* "Home" navigation bar */
+nav
+{
+	position: absolute; top: 15; left: 1280;
+	font-size: 30;
+}
+
+/* "About me" section */
+#family_picture_css img
+{
+  position: absolute; top: 97; left: 933;
+  width: 19em; height: 19em; border: .1em solid black;
+}
+
+
+#computer_picture_css img
+{
+  position: absolute; top: 137; left: 152;
+  width: 19em; height: 14em; border: .1em solid black;
+}
+
+/* "Hobbies" section */
+
+#swim_picture_css img
+{
+  position: absolute; top: 525; left: 165;
+  width: 18em; height: 15em; border: .1em solid black;
+}
+
+#breaststroke_picture_css img
+{
+  position: absolute; top: 545; left: 932;
+  width: 19em; height: 13em; border: .1em solid black;
+}
+
+
+#guitar_picture_css img
+{
+  position: absolute; top: 890; left: 97;
+  width: 22.5em; height: 13em; border: .1em solid black;
+  margin-bottom: 8em;
+}
+
+#piano_picture_css img
+{
+  position: absolute; top: 890; left: 930;
+  width: 21em; height: 13em; border: .1em solid black;
+}
+
+#basketball_picture_css img
+{
+  position: absolute; top: 540; left: 597;
+  width: 11.5em; height: 11.5em; 
+}
+
+#about_me_header_css
+{
+  color: blue; font-family: sans-serif;
+  position: absolute; top: 75; left: 635;
+  border-bottom: .15em solid #707070;
+}
+
+#about_me_paragraph_css
+{
+  position: absolute; top: 150; left: 10;
+  text-align: center;
+  padding-left: 30em; padding-right: 33em;
+}
+
+#hobbies_header_css
+{
+  color: blue; font-family: sans-serif;
+  position: absolute; top: 437; left: 642;
+  border-bottom: .15em solid #707070;
+}
+
+#swimming_header_css
+{
+  color: red; font-family: sans-serif;
+  position: absolute; top: 535; left: 642;
+}
+
+#swimming_paragraph_css 
+{
+  position: absolute; top: 580; left: 0;
+  text-align: center;
+  padding-left: 30em; padding-right: 32em;
+}
+
+#music_header_css
+{
+  color: red; font-family: sans-serif;
+  position: absolute; top: 865; left: 665;
+}
+
+#music_paragraph_css
+{
+  position: absolute; top: 908; left: 0;
+  text-align: center;
+  padding-left: 30em; padding-right: 33em;
+}
+
+
+
+

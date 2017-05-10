@@ -1,0 +1,109 @@
+body
+{
+  background-image: url(about_me_background_picture.jpg);
+  background-size: 90em 85em;
+}
+
+/* "Home" navigation bar */
+nav
+{
+	position: absolute; top: 15; left: 1280;
+	font-size: 30;
+}
+
+#contact_information_header_css
+{
+	position: absolute; left: 575; top: -4;
+}
+
+#contact_picture_css img
+{
+	border-radius: 50%;
+	width: 14.5em; height: 16em;
+	position: absolute; top: 100; left: 600;
+}
+
+#facebook h3
+{
+	position: absolute; top: 100; left: 470;
+}
+
+#facebook img
+{
+	position: absolute; top: 150; left: 476;
+	width: 4em; height: 4em;
+	animation-name: orbit_facebook;
+	animation-duration: 3s;
+}
+
+#linkedin h3
+{
+	position: absolute; top: 300; left: 520;
+}
+
+#linkedin img
+{
+	position: absolute; top: 350; left: 525;
+	width: 4em; height: 4em;
+	animation-name: orbit_linkedin;
+	animation-duration: 3s;
+}
+
+#github h3
+{
+	position: absolute; top: 300; left: 847;
+}
+
+#github img
+{
+	position: absolute; top: 350; left: 845;
+	width: 4em; height: 4em;
+	animation-name: orbit_github;
+	animation-duration: 3s;
+}
+
+#twitter h3
+{
+	position: absolute; top: 100; left: 894;
+}
+
+#twitter img
+{
+	position: absolute; top: 150; left: 892;
+	width: 4em; height: 4em;
+	animation-name: orbit_twitter;
+	animation-duration: 3s;
+}
+
+h3
+{
+	color: blue;
+}
+
+#email_and_number_css
+{
+	position: absolute; top: 450; left: 638;
+	text-align: center; 
+}
+
+@keyframes orbit_facebook
+{
+	from{ transform: translateX(210px) translateY(60px); }
+}
+
+@keyframes orbit_linkedin
+{
+	from{ transform: translateX(160px) translateY(-140px); }
+}
+
+@keyframes orbit_github
+{
+	from{ transform: translateX(-162.5px) translateY(-140px); }
+}
+
+@keyframes orbit_twitter
+{
+	from{ transform: translateX(-210px) translateY(75px); }
+}
+
+
