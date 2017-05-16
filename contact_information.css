@@ -80,10 +80,47 @@ h3
 	color: blue;
 }
 
-#email_and_number_css
+#email_me_header_css
 {
-	position: absolute; top: 450; left: 638;
-	text-align: center; 
+	position: absolute; top: 390; left: 660;
+	text-align: center;
+	color: red;
+	border-bottom: .15em solid #707070;
+;
+}
+
+#email_css
+{
+	position: absolute; top: 475; left: 0;
+	padding-right: 41em; padding-left: 40em;
+	text-align: center;
+}
+
+#reason_for_contact_header_css
+{
+	position: absolute; top: 560; left: 648;
+	text-align: center;
+}
+
+#reason_for_contact_css
+{
+	position: absolute; top: 589; left: 578;
+	text-align: center;
+}
+
+
+#description_email_css
+{
+	position: absolute; top: 620; left: 0;
+	padding-right: 42em; padding-left: 40em;
+	text-align: center;
+	margin-bottom: 5em;
+}
+
+input, textarea
+{
+	text-align: center;
+	/*width: 10em;*/
 }
 
 @keyframes orbit_facebook

@@ -54,7 +54,7 @@
 					</p>
 			</div>
 					
-			<div id= "email_and_number_css" >
+			<!-- <div id= "email_and_number_css" >
 				<h3> Primary Contacts </h3>
 					<p> dz97@aol.com </p>
 					<p> 248-961-5464 </p>
@@ -63,10 +63,42 @@
 					<p> nmanivan@umich.edu </p>
 					<p> naraman@gmail.com </p>
 					<p> 248-596-1780 </p>
-			</div>
+			</div> -->
 
+		<div id="email_me_header_css">
+			<h2> Email Me </h2>
+		</div>
+			
+				<form action="email_data.php" method="post">
+					<div id= "email_css" >
+						Name: <input type="text" placeholder = "John" name="name">
+						<span class="error">* <?php echo $nameErr;?></span>
+						<br>
+						E-mail: <input type="text" placeholder = "ssuzie@gmail.com" name="email">
+						<span class="error">* <?php echo $emailErr;?></span>
+						<br>	
+					</div>
 
- 	</div>
+					<div id= "reason_for_contact_header_css">
+						Reason for Contact:
+					</div>
+
+					<div id="reason_for_contact_css">
+						<input type="radio" name="reason_for_contact" value="professional">Professional
+						<input type="radio" name="reason_for_contact" value="friend_family">Friend/Family
+						<input type="radio" name="reason_for_contact" value="other">Other
+						<span class="error">* <?php echo $emailErr;?></span>
+					</div>
+
+					<div id= "description_email_css" >	
+						Description: <textarea name="description" placeholder = "Hit me up" rows = "15" columns = "70"></textarea>
+						<input type="submit">
+					</div>
+				</form>
+			
+</body>
+</html>
+
 	</body>
 
 
